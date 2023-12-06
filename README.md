@@ -6,11 +6,11 @@ Bem-vindo ao repositório que contém os projetos concluídos no FreeCodeCamp. E
 
 - **Certificação de Design Responsivo:**
   - **Projetos:**
-    - [Formulário de Pesquisa](Certificação%20de%20Design%20Responsivo/projetos/NomeDoProjeto1)
-    - [Página de Tributo](Certificação%20de%20Design%20Responsivo/projetos/NomeDoProjeto2)
-    - [Página de Documentação Técnica](Certificação%20de%20Design%20Responsivo/projetos/NomeDoProjeto1)
-    - [Página de Produto](Certificação%20de%20Design%20Responsivo/projetos/NomeDoProjeto2)
-    - [Página de Portifólio]()
+    - Formulário de Pesquisa
+    - Página de Tributo
+    - Página de Documentação Técnica
+    - Página de Produto
+    - Página de Portifólio
 
 - **Outra Certificação:**
   - **Projetos:**
