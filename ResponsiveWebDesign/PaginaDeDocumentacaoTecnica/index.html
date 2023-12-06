@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Automação de Documentos</header>
+      <ul>
+        <li><a class="nav-link" href="#Introdução">Introdução</a></li>
+        <li><a class="nav-link" href="#O_que_significa_automatizar_um_documento?">O que significa automatizar um documento?</a></li>
+        <li><a class="nav-link" href="#Como_introduzir_a_automação?">Como introduzir a automação?</a></li>
+        <li><a class="nav-link" href="#Onde_a_automação_de_documentos_pode_ser_aplicada?">Onde a automação de documentos pode ser aplicada?</a></li>
+        <li><a class="nav-link" href="#Benefícios_da_automação_de_documentos">Benefícios da automação de documentos</a></li>
+        <li><a class="nav-link" href="#Conclusão">Conclusão</a></li>
+        <li><a class="nav-link" href="#Referências">Referências</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introdução">
+        <header>Introdução</header>
+        <article>
+          <p>
+            O processo  de automação de documentos consiste em, fazer o uso de algum software para criar e gerenciar os seus documentos eletrônicos com eficiência, minimizando o retrabalho e as tarefas manuais (a partir de modelos). Desta forma, as equipes se preocupam em criar um fluxo de modelos de documentos pré-prontos e até de aprovações automáticas a fim de adquirir agilidade e uma maior produtividade.
+          </p>
+
+          <p>
+            A grande vantagem é que a automação de documentos é multifacetada – já que as organizações dos mais distintos tamanhos e nichos podem aproveitar os seus pontos positivos. 
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="O_que_significa_automatizar_um_documento?">
+        <header>O que significa automatizar um documento?</header>
+        <article>
+          <p>Automatizar um documento é utilizar um software para realizar a gestão de documentos eletrônicos de forma rápida e eficiente. Desta forma, a automação do fluxo de trabalho de documentos permite que as equipes minimizem suas tarefas manuais (ao redigirem documentos do zero) e soma agilidade, produtividade e redução de erros. </p>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Como_introduzir_a_automação?">
+        <header>Como introduzir a automação?</header>
+        <article>
+          <p>
+            Para introduzir a automação:
+          </p>
+          <ul>
+            <li>Pense sobre o seu objetivo;</li>
+            <li>Escolha um software para a automação de documentos;</li>
+            <li>Selecione os documentos ideais;</li>
+            <li>Planeje o calendário para o processo;</li>
+            <li>Aprove o projeto com a direção;</li>
+            <li>Prepare os modelos e automatize-os;</li>
+            <li>Adicione valor para a marca nos templates;</li>
+            <li>Faça testes;</li>
+            <li>Treine os colaboradores envolvidos.</li>
+          </ul>
+          <p>Exemplo de Automatização de Geração de Documento em Python:</p>
+          <code># Um exemplo simples de geração de documento em PDF usando a biblioteca ReportLab em Python.
+from reportlab.pdfgen import canvas
+
+c = canvas.Canvas("exemplo.pdf")
+c.drawString(100, 750, "Automação de Documentos")
+c.save()
+</code>
+          <p>Script de Extração de Dados de Documentos PDF em Python:</p>
+          <code># Um exemplo de script para extrair texto de documentos PDF usando a biblioteca PyPDF2 em Python.
+import PyPDF2
+
+pdf_file = open("documento.pdf", "rb")
+pdf_reader = PyPDF2.PdfFileReader(pdf_file)
+
+for page_num in range(pdf_reader.numPages):
+    page = pdf_reader.getPage(page_num)
+    text = page.extractText()
+    print(text)
+
+pdf_file.close()
+</code>
+          <p>Automatização de Geração de Documento em HTML:</p>
+          <code><!-- Um exemplo de geração de documento HTML usando tags HTML básicas -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemplo de Documento Automatizado</title>
+  </head>
+  <body>
+    <h1>Automação de Documentos</h1>
+    <p>Este é um documento gerado automaticamente em HTML.</p>
+  </body>
+</html>
+</code>
+          <p>Script de Envio de E-mails Automatizado em JavaScript:</p>
+          <code>// Um exemplo de script que envia e-mails automaticamente usando a biblioteca nodemailer em Node.js.
+const nodemailer = require("nodemailer");
+
+let transporter = nodemailer.createTransport({
+  service: "Gmail",
+  auth: {
+    user: "seuemail@gmail.com",
+    pass: "suasenha",
+  },
+});
+
+let mailOptions = {
+  from: "seuemail@gmail.com",
+  to: "destinatario@exemplo.com",
+  subject: "Assunto do E-mail",
+  text: "Corpo do E-mail.",
+};
+
+transporter.sendMail(mailOptions, function (error, info) {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log("E-mail enviado: " + info.response);
+  }
+});
+</code>
+          <p>Modelo de Automatização de Documentos em Microsoft Word:</p>
+          <code><!-- Um exemplo de modelo de documento em XML para automação no Microsoft Word -->
+<?xml version="1.0" encoding="UTF-8"?>
+<w:document xmlns:w="urn:schemas-microsoft-com:office:word">
+  <w:body>
+    <w:p>
+      <w:r>
+        <w:t>Modelo de Documento para Automatização</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>Este é um documento automatizado no Microsoft Word.</w:t>
+      </w:r>
+    </w:p>
+  </w:body>
+</w:document></code>
+        </article>
+      </section>
+      <section class="main-section" id="Onde_a_automação_de_documentos_pode_ser_aplicada?">
+        <header>Onde a automação de documentos pode ser aplicada?</header>
+        <article>
+          <p>
+            Nos negócios, a automação de documentos pode ser aplicada em arquivos que precisam ser gerados rapidamente ou que são utilizados como frequência, como:
+          </p>
+          <ul>
+            <li>Contratos de compra e venda;</li>
+            <li>Orçamentos e faturas; </li>
+            <li>Relatórios de despesas;</li>
+            <li>Acordos de confidencialidade;</li>
+            <li>Atas de reuniões;</li>
+            <li>Modelos de campanhas de marketing e de produção de conteúdo;</li>
+            <li>Cadastros gerais – incluindo clientes e fornecedores;</li>
+            <li>Convocatórias; </li>
+            <li>Avisos de transferência.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Benefícios_da_automação_de_documentos">
+        <header>Benefícios da automação de documentos</header>
+        <article>
+          <p>
+            Embora nem todos os gerentes e/ou fundadores tenham parado para pensar no que é a automação de documentos, a verdade é que ela pode ser transformadora para a rotina de uma empresa.
+          </p>
+          <p>Como benefícios da automação de documentos, podemos citar: </p>
+          <ul>
+            <li>A redução de erros a partir da criação de modelos precisos e confiáveis: já que, ao automatizar o processo, as empresas minimizam os enganos ocorridos quando os seus funcionários redigem um contrato ou criam um arquivo do zero;</li>
+            <li>O ganho de agilidade no fluxo de trabalho (bem como da produtividade): afinal, depois de saber o que é a automação de documentos e passar a colocá-la em prática, as companhias criam os seus arquivos muito mais rapidamente – eliminando aquela tarefa árdua e demorada de ter que escrever cada contrato ou documento por vez. Sem contar o aumento indiscutível da produtividade, ou mesmo da motivação dos funcionários;</li>
+            <li>O controle da qualidade: visto que a automação do fluxo de trabalho de documentos soma pontos positivos ao manter um layout e estrutura consistentes – agregando valor para a organização como um todo.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Conclusão">
+        <header>Conclusão</header>
+        <article>
+
+          <p>
+            A automação de documentos revoluciona a maneira como criamos, gerenciamos e compartilhamos informações. Simplifica tarefas repetitivas, economiza tempo e reduz erros humanos. Além disso, torna os processos de negócios mais eficientes, permitindo que as organizações foquem em tarefas mais estratégicas, melhorando a produtividade e a precisão.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Referências">
+        <header>Referências</header>
+        <article>
+          <ul>
+            <li>
+              Toda a documentação foi baseada no guia da Bitrix, você pode acessar clicando
+              <a href="https://www.bitrix24.com.br/articles/o-que-a-automacao-de-documentos-9-etapas-iniciais-para-comecar.php" target="_blank">aqui</a>
+            </li>
+          </ul>
+    </main>
+  </body>
+</html>

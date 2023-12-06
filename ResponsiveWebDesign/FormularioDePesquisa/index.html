@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">Formulario Lash</h1>
+        </header>
+        <p id="description" class="description text-center"> Dê o seu feedback e me ajude a melhorar a qualidade do serviços. 💞</p>
+        <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="nome">Nome</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Digite seu nome" required="">
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email" required="">
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Idade<span class="clue">(opcional)</span></label>
+          <input type="number" name="idade" id="number" min="10" max="99" class="form-control" placeholder="Idade">
+        </div>
+        <div class="form-group">
+          <p>Como você classifica meu atendimento?</p>
+          <select id="dropdown" name="role" class="form-control" required="">
+            <option disabled="" selected="" value="">Selecione uma opção</option>
+            <option value="extremamente satisfeito">Extremamente satisfeito</option>
+            <option value="satisfeito">Satisfeito</option>
+            <option value="neutro">Neutro</option>
+            <option value="insatisfeito">Insatisfeito</option>
+            <option value="completamente insatisfeito">Completamente insatisfeito</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Você recomendaria meus serviços a uma amiga?</p>
+          <label>
+            <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Sim</label>
+          <label>
+            <input name="user-recommend" value="maybe" type="radio" class="input-radio">Talvez</label>
+
+          <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Não tenho certeza</label>
+        </div>
+        <div class="form-group">
+          <p>
+            O que você gostaria de ver melhorado?
+            <span class="clue">(Marque tudo o que se aplica)</span>
+          </p>
+
+          <label><input name="prefer" value="Brindes" type="checkbox" class="input-checkbox">Brindes</label>
+          <label>
+            <input name="prefer" value="Qualidade de serviço" type="checkbox" class="input-checkbox">Qualidade de serviço</label>
+          <label><input name="prefer" value="Horarios disponiveis" type="checkbox" class="input-checkbox">Horarios disponiveis</label>
+          <label><input name="prefer" value="Estrutura" type="checkbox" class="input-checkbox">Estrutura</label></div>
+
+        <div class="form-group">
+          <p>Algum comentário ou sugestão?</p>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Adicione seu comentario aqui..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Enviar
+          </button>
+          <div class="form-group" id="submission-message">
+            <p id="message-text"></p>
+          </div>
+        </div>
+      </form>
+    </div>
+     <!-- Exibe mensagem após envio do formulario -->
+  <script>
+    document.getElementById("survey-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      // Exibe a mensagem de envio
+      document.getElementById("submission-message").style.display = "block";
+      document.getElementById("message-text").innerText = "Obrigado por me ajudar a melhorar meus serviços!!";
+    });
+  </script>
+
+</body>   
+</html>
+
+
