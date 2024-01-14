@@ -1,15 +1,19 @@
 # Formulário de Pesquisa
 
-Este é um formulario de pesquisa, que funciona de maneira semelhante a este [Aqui](https://survey-form.freecodecamp.rocks/).
+ Este é um formulario de pesquisa, que funciona de maneira semelhante a este [Aqui](https://survey-form.freecodecamp.rocks/).
 
-**Tecnologias Utilizadas:**
-- HTML
-- CSS
+## Tecnologias utilizadas:
+
+- [HTML](https://pt.wikipedia.org/wiki/HTML):  Linguagem de Marcação de Hipertexto
+- [CSS](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets): Linguagem utilizada para estilizar elementos escritos em uma linguagem de marcação como HTML
   
-**Imagens:**
+
+## Imagem
+
 ![Captura de Tela do Meu Projeto](image/Formulario.png)
 
-**Instruções de Instalação:**
+## Instruções de Instalação:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/RicardoUbi/ProjetosFreeCodeCamp.git
+
