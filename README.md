@@ -4,13 +4,21 @@ Bem-vindo ao repositório que contém os projetos concluídos no FreeCodeCamp. E
 
 ## Estrutura do Repositório
 
-- **Certificação de Design Responsivo:**
+- **Certificação de Web Design Responsivo:**
   - **Projetos:**
     - [Formulário de Pesquisa](ResponsiveWebDesign/FormularioDePesquisa)
     - [Página de Tributo](ResponsiveWebDesign/PaginaDeTributo)
     - [Página de Documentação Técnica](ResponsiveWebDesign/PaginaDeDocumentacaoTecnica)
     - [Página de Produto](ResponsiveWebDesign/PaginaDeProduto)
     - [Página de Portifólio](ResponsiveWebDesign/PortifolioWeb)
+   
+- **Certificação de Computação Científica em Python:**
+  - **Projetos:**
+    - [Formatador Aritmético](ScientificComputingPython/boilerplate-arithmetic-formatter)
+    - [Aplicativo de Orçamento](ScientificComputingPython/boilerplate-budget-app)
+    - [Calculadora de Área de Polígono](ScientificComputingPython/boilerplate-polygon-area-calculator)
+    - [Calculadora de Probabilidade](ScientificComputingPython/boilerplate-probability-calculator)
+    - [Calculadora de Tempo](ScientificComputingPython/boilerplate-time-calculator)
 
 - **Outra Certificação:**
   - **Projetos:**
