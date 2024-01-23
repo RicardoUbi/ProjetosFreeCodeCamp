@@ -22,11 +22,11 @@ Bem-vindo ao repositório que contém os projetos concluídos no FreeCodeCamp. E
 
 - **Certificação de Analise de Dados com Python:**
   - **Projetos:**
-    - [Análise Demográfica usando Pandas](...)
-    - [Análise Estatística com Numpy](...)
-    - [Análise Visual de Dados Médicos](...)
-    - [Análise Visual de Dados de Visualização de Forum](...)
-    - [Analise e Projeção do Nível do Mar](...)
+    - [Análise Demográfica usando Pandas](DataAnalysisPython/boilerplate-demographic-data-analyzer)
+    - [Análise Estatística com Numpy](DataAnalysisPython/boilerplate-mean-variance-standard-deviation-calculator)
+    - [Análise Visual de Dados Médicos](DataAnalysisPython/boilerplate-medical-data-visualizer)
+    - [Análise Visual de Dados de Visualização de Forum](DataAnalysisPython/boilerplate-page-view-time-series-visualizer)
+    - [Analise e Projeção do Nível do Mar](DataAnalysisPython/boilerplate-sea-level-predictor)
 
 - **Outra Certificação:**
   - **Projetos:**
