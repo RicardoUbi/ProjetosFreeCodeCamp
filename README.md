@@ -20,6 +20,14 @@ Bem-vindo ao repositório que contém os projetos concluídos no FreeCodeCamp. E
     - [Calculadora de Probabilidade](ScientificComputingPython/boilerplate-probability-calculator)
     - [Calculadora de Tempo](ScientificComputingPython/boilerplate-time-calculator)
 
+- **Certificação de Analise de Dados com Python:**
+  - **Projetos:**
+    - [Análise Demográfica usando Pandas](...)
+    - [Análise Estatística com Numpy](...)
+    - [Análise Visual de Dados Médicos](...)
+    - [Análise Visual de Dados de Visualização de Forum](...)
+    - [Analise e Projeção do Nível do Mar](...)
+
 - **Outra Certificação:**
   - **Projetos:**
     Em andamento...
