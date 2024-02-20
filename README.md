@@ -22,6 +22,12 @@ Os projetos nesta certificação abrangem as habilidades necessárias para extra
 
 ---
 
+**[Certificação de Machine Learning with Python:](MachineLearningPython/)**
+
+Os projetos nesta certificação exploram os fundamentos e aplicações avançadas do aprendizado de máquina utilizando Python. Desde a compreensão dos algoritmos de machine learning até a implementação de modelos preditivos e análise de dados, esta certificação demonstra minha capacidade de utilizar técnicas de machine learning para resolver problemas do mundo real.
+
+---
+
 **Outras Certificações:**
 Em breve
 
