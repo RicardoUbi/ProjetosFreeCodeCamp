@@ -1,4 +1,4 @@
-# Análise Demográfica usando Pandas
+# Explorador de gráficos de dados
 
 O objetivo deste projeto era desenvolver um explorador de dados utilizando a linguagem de programação Python. Essa ferramenta permitirá ao usuário interagir com arquivos CSV e realizar análises exploratórias de dados de forma eficiente.
 
