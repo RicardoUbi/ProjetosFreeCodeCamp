@@ -1,4 +1,4 @@
-# Análise Demográfica usando Pandas
+# Calculadora Gráfica
 
 O objetivo deste projeto era desenvolver uma calculadora gráfica completa utilizando a linguagem de programação Python. A calculadora deve oferecer diversas funcionalidades para visualização e análise de funções matemáticas, proporcionando uma ferramenta interativa para o usuário explorar o mundo da matemática computacional.
 
