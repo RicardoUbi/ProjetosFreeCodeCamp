@@ -14,10 +14,8 @@ Bem-vindo ao repositório que contém os projetos concluídos da Certificação 
 
 - **[Página de Portifólio:](PortifolioWeb/)** Aqui, você terá a oportunidade de criar uma página de portfólio responsiva para exibir seu trabalho e habilidades de forma profissional e atraente em diversos dispositivos.
 
----
-
+## Certificado
 
 <div align="center">
-  <p>Certificado</p>
   <img src="imgs/certificado_drw.png" alt="Certificado FreeCodeCamp" style="display:block; margin:auto; margin-bottom:20px;">
 </div>

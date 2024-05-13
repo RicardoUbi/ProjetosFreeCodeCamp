@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title data-traducao="titulo">Telephone Number Validator</title>
+  </head>
+  <header>
+    <select id="selectIdioma">
+      <option value="ingles">English</option>
+      <option value="portugues">Português</option>
+      <option value="espanhol">Español</option>
+    </select>
+  </header>
+  <body>
+    <main>
+      <h1 data-traducao="titulo">Telephone Number Validator</h1>
+      <div class="phone-container container">
+        <img href="https://wallpapercave.com/wp/wp12888488.png">
+        <div class="phone-background">
+          <div class="phone-camera"></div>
+        </div>
+        <label data-traducao="enterNumber"for="user-input">Enter a Phone Number:</label>
+        <input maxlength="20" type="text" id="user-input" value="" />
+        <div id="results-div"></div>
+        <div class="phone-footer">
+          <button data-traducao="validar"class="btn-styles" id="check-btn">Check</button>
+          <button data-traducao="limpar"class="btn-styles" id="clear-btn">Clear</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

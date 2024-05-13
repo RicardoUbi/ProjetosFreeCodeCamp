@@ -13,7 +13,8 @@ Bem-vindo ao repositório que contém os projetos concluídos da Certificação 
 
   - [Explorador de gráficos de dados](Data-Graph-Explorer/): Criando um algoritmo capaz de importar e explorar graficamente dados.
 
+## Certificado
+
 <div align="center">
-  <p>Certificado</p>
   <img src="imgs/certificado_AlgebraPython.png" alt="Certificado FreeCodeCamp" style="display:block; margin:auto; margin-bottom:20px;">
 </div>

@@ -13,7 +13,8 @@ Bem-vindo ao repositório que contém os projetos concluídos da Certificação 
 
   - [Classificador de texto SMS baseado em rede neural](fcc_sms_text_classification/): Criando um algoritmo para classificar mensagens de SMS como "ham" ou "spam".
 
+## Certificado
+
 <div align="center">
-  <p>Certificado</p>
   <img src="imgs/certificado_mlp.png" alt="Certificado FreeCodeCamp" style="display:block; margin:auto; margin-bottom:20px;">
 </div>

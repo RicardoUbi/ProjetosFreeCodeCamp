@@ -1,0 +1,83 @@
+/* Definições gerais */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #64069A;
+}
+
+.title {
+  font-size: 28px; /* Aumenta o tamanho da fonte para 28 pixels */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do cabeçalho */
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#selectIdioma{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: #E8E4EC;
+}
+
+/* Estilos do título */
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos do formulário de palíndromo */
+
+.palindrome-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.palindrome-input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.palindrome-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos da definição de palíndromo */
+
+.palindrome-definition-div {
+    text-align: center;
+    background-color:  #C9C5CC; /* #C9C5CC */
+    border-radius: 5px;
+}
+
+.palindrome-definition {
+    font-style: italic;
+    color: #666;
+}

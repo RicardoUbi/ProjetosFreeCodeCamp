@@ -34,9 +34,17 @@ Esta certificação oferece uma imersão completa que combina álgebra com progr
 
 ---
 
+**[JavaScript Algorithms and Data Structures (Beta)](JavaScriptAlgorithms)**
+
+Os projetos nesta certificação abordam as habilidades necessárias para implementar JavaScript e adicionar inteligência às páginas da web.
+Esta certificação me equipou com as habilidades essenciais para dominar a linguagem JavaScript e utilizar esta ferramenta para construir websites interativos e dinâmicos.
+
+---
+
 **Outras Certificações:**
 Em breve
 
 ---
 
 **Nota:** Em breve mais projetos e certificações serão adicionadas, refletindo meu compromisso contínuo com o desenvolvimento de habilidades e conhecimentos na área da programação e tecnologia.
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title data-traducao="titulo">Roman Numeral Converter</title>
+  </head>
+  <header>
+    <select id="selectIdioma">
+      <option value="ingles">English</option>
+      <option value="portugues">Português</option>
+      <option value="espanhol">Español</option>
+    </select>
+  </header>
+  <body>
+    <main>
+      <h1 data-traducao="titulo">Roman Numeral Converter</h1>
+      <form id="form" class="form">
+        <fieldset>
+          <label data-traducao="enterNumber" for="number">Enter a Number:</label><br />
+          <input type="number" id="number" required />
+          <button data-traducao="validar" type="button" id="convert-btn">Convert</button>
+        </fieldset>
+      </form>
+      <div id="output" class="output hidden"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

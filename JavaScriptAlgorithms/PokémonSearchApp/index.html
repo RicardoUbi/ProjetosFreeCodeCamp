@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-traducao="name-project">Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>
+    <select id="selectIdioma">
+      <option value="ingles">English</option>
+      <option value="portugues">Português</option>
+      <option value="espanhol">Español</option>
+    </select>
+  </header>
+  <body>
+    <main>
+      <h1 data-traducao="name-project">Pokémon Search App</h1>
+      <div class="container">
+        <div class="output">
+          <div class="left-container">
+            <div class="name-and-id">
+              <span id="pokemon-name"></span>
+              <span id="pokemon-id"></span>
+            </div>
+            <div class="size">
+              <span id="weight"></span>
+              <span id="height"></span>
+            </div>
+            <div id="sprite-container" class="sprite-container"></div>
+            <div id="types"></div>
+          </div>
+          <div class="right-container">
+            <table>
+              <tr>
+                <th data-traducao="base">Base</th>
+                <th data-traducao="stats">Stats</th>
+              </tr>
+              <tr>
+                <td data-traducao="hp">HP:</td>
+                <td id="hp"></td>
+              </tr>
+              <tr>
+                <td data-traducao="attack">Attack:</td>
+                <td id="attack"></td>
+              </tr>
+              <tr>
+                <td data-traducao="defense">Defense:</td>
+                <td id="defense"></td>
+              </tr>
+              <tr>
+                <td data-traducao="super-atk">Sp. Attack:</td>
+                <td id="special-attack"></td>
+              </tr>
+              <tr>
+                <td data-traducao="super-def">Sp. Defense:</td>
+                <td id="special-defense"></td>
+              </tr>
+              <tr>
+                <td data-traducao="speed">Speed:</td>
+                <td id="speed" class="speed"></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <form role="search" id="search-form">
+          <label data-traducao="message-enter"for="search-input">Search for Pokémon Name or ID:</label>
+          <input type="text" name="pokemon" id="search-input" required />
+          <button data-traducao="btn-enviar"id="search-button">Search</button>
+        </form>
+      </div>
+      <script src="./script.js"></script>
+    </main>
+  </body>
+</html>

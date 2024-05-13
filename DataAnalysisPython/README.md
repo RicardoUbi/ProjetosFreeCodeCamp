@@ -16,9 +16,8 @@ Bem-vindo ao repositório que contém os projetos concluídos da Certificação 
 - **[Analise e Projeção do Nível do Mar: ](boilerplate-sea-level-predictor/)** Analisa dados históricos da mudança do nível do mar e projeta tendências futuras até 2050, utilizando técnicas de modelagem preditiva.
 
 
----
+## Certificado
 
 <div align="center">
-  <p>Certificado</p>
   <img src="imgs/certificado_dap.png" alt="Certificado FreeCodeCamp" style="display:block; margin:auto; margin-bottom:20px;">
 </div>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<header>
+  <select id="selectIdioma">
+    <option value="ingles">English</option>
+    <option value="portugues">Português</option>
+    <option value="espanhol">Español</option>
+  </select>
+</header>
+<body>
+  
+  <main>
+    <h1 data-traducao="name-project">Cash Register Project</h1>
+    <div class="lcd-container">
+      <div class="left-div">
+        <div id="cash-drawer-display" class="cash-drawer-display"></div>
+      </div>
+      <div class="right-div">                                         <div class="infos-div">              
+            <div class="price-div">
+              <p id="bar-content"">Total</p>
+              <p id="price-screen" class="price-screen"></p>
+            </div>
+            <div class="price-div">
+              <p data-traducao="saldo-recebido" id="bar-content"">Receive</p>
+              <p id="sold-screen" class="sold-screen"></p>
+            </div>
+        </div>
+        <div class="change-due"id="change-due"></div>
+        <div class="input-div">
+          <label data-traducao="message-enter" for="cash">Enter cash from customer:</label>
+          <input type="number" id="cash" class="user-input" value="" />
+          <button data-traducao="btn-enviar" class="check-btn-styles" id="purchase-btn">Purchase</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+      text-align: center;
+  }
+  
+  #selectIdioma{
+      margin-top: 50px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      background-color: #4CAF50;
+      color: #E8E4EC;
+  }
+  
+  body {
+    background-color: #64069A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .lcd-container {
+    width: 40rem;
+    height: 20rem;
+    background-color: #ccc;
+    margin: 0 auto; /* Centraliza o retângulo */
+    border: 2px solid #000;
+    border-radius: 7px;
+    display: flex;
+  }
+  
+  
+  .left-div{
+    flex: 1;
+    padding: 10px;
+  }
+  .cash-drawer-display{
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 7px;
+  }
+  
+  .right-div {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .infos-div{
+    width: 100%;
+    border-radius: 7px;
+    margin-right: 10px;
+    display: flex; /* Activate Grid layout */
+    grid-template-rows: auto auto 1fr; /* Define three rows */
+    gap: 10px; /* Add spacing between elements (optional) */
+  }
+  .price-div {
+    width: 8rem;
+    border: 1px solid #000;
+    border-radius: 7px;
+  }
+  
+  #bar-content{
+    background-color: #4191e1;
+    border-radius: 7px 7px 0 0;
+  }
+  
+  
+  #bar-content-yellow{
+    background-color: #ffdf00;
+    border-radius: 7px;
+  }
+  
+  #bar-content-red{
+    background-color: #F44E3F;
+    border-radius: 7px;
+  }
+  
+  
+  .input-div {
+    display: flex; /* Activate Flexbox layout */
+    flex-direction: column; /* Arrange elements vertically */
+    gap: 5px; /* Add spacing between label and input (optional) */
+  }
+  
+  .change-due{
+    padding: 10px 0;
+    height: 60%;
+  }
+  
+  .check-btn-styles {
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #000;
+    border: 1px solid #000;
+  }

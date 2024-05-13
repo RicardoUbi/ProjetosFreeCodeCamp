@@ -13,7 +13,8 @@ Bem-vindo ao repositório que contém os projetos concluídos da Certificação 
 
   - [Calculadora de Tempo: ](boilerplate-time-calculator/) Realiza cálculos de tempo adicionando uma duração a um horário de início, proporcionando uma representação amigável do resultado.
 
+## Certificado
+
 <div align="center">
-  <p>Certificado</p>
   <img src="imgs/certificado_csp.png" alt="Certificado FreeCodeCamp" style="display:block; margin:auto; margin-bottom:20px;">
 </div>
